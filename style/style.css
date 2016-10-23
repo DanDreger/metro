@@ -1,0 +1,205 @@
+body {
+}
+
+article, aside, footer, header, section div {
+	display: 			block;
+}
+
+nav {
+	position: 			fixed;
+	width: 				100%;
+	top: 				0;
+	background-color: 	black;
+	font-family:		'Titillium Web', sans-serif;
+}
+
+.logo {
+	display: 			inline-block;
+	background-color: 	red;
+	color: 				white;
+	margin-left: 		10%;
+	padding:			10px;
+	text-align: 		center;
+	line-height: 		1.0em;		
+}
+
+.top {
+	display: 			inline-block;
+	text-decoration: 	none;
+	color: 				white;
+	padding: 			15px;
+	font-size: 			1.10em;
+}
+
+.navigation {
+	width: 				auto;
+	float: 				right;
+	margin-right: 		10%;
+}
+
+header {
+	text-align: 		center;
+	margin: 			0 auto;	
+	color: 				white;	
+	width: 				70%;
+	line-height: 		500%;
+	font-family: 		'Teko', sans-serif; 
+	background-color: 	black;
+	
+}
+
+header h1 {
+	margin-top: 		175px;
+	font-size: 			5em;
+	letter-spacing: 	7px;
+}
+
+header button {
+	background-color: 	black;
+	color: 				white;
+	border:				1px solid white;
+	padding: 			10px;
+}
+
+button i {
+	color: 				white;
+}
+
+.fa {
+	text-align: 		center;
+	padding-bottom: 	0;
+	margin-bottom: 		0;
+}
+
+section  {
+	background-color: 	white;
+	width: 				50%;
+	margin: 			0 auto;
+	text-align: 		center;
+	color: 				black;
+	font-size: 			35px;
+	font-family: 		'Teko', sans-serif; 
+	font-style: 		bold;
+	line-height: 		1;
+}
+
+section button {
+	background-color: 	red;
+	color: 				white;
+	border:				1px solid black;
+	padding: 			10px;
+}
+
+.explore button {
+	margin-bottom: 		50px;
+}
+
+aside {
+	display: 			table-cell;
+	background-color: 	black;
+	color: 				white;
+	padding: 			5%;
+	font-size: 			15px;
+
+}
+
+.red {
+	display: 			table-cell;
+	background-color: 	red;
+	font-size: 			15px;
+	vertical-align: 	middle;
+	padding: 			5%;
+	text-align: 		left;
+	color: 				white;
+}
+
+.red h3 {
+	line-height: 		1;
+}
+
+.bottombar {
+	background-color:	black;
+	color:				white;
+	text-align: 		center;
+	margin-top: 		0;
+}
+
+.bottombar hr {
+	color: 				white;
+}
+
+
+.features div {
+	display: 			inline-block;
+	width: 				35%;
+	font-size: 			15px;
+	text-align: 		left;
+}
+
+.features {
+	width: 				90%;
+	text-align:			center;
+}
+
+.topP {
+	padding-top: 		0;
+	padding-bottom: 	100px;
+
+}
+
+.social a {
+	display: 			inline-block;
+	width: 				20%;
+	height: 			150px;
+	color: 				white;
+	background-color: 	black;
+	margin: 			10px 5px;
+	text-align: 		center;
+	vertical-align: 	middle;
+}
+
+#contact {
+	height: 			500px;
+	width: 				100%;
+	background-color: 	black;
+}
+
+.addressbox {
+	color:				white;
+	width: 				25%;
+	background-color: 	red;
+	text-align: 		center;
+	padding: 			70px 10px;
+
+}
+
+.innerbox {
+	width: 				100%
+	margin:				0 auto;
+}
+
+footer { 
+	width: 				60%;
+	margin: 			0 auto;
+	display: 			block;
+ }
+
+.side {
+	width: 				20%;
+	margin: 			3%;
+	float:				left;
+	font-size: 			10px;
+}
+
+.middle {
+	float: 				left;
+	margin: 			3%;
+	width: 				45%;
+	font-size: 			10px;
+}
+
+.middle ul {
+	float:				left;
+	width: 				50%;
+}
+
