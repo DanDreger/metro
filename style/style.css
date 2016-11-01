@@ -148,8 +148,9 @@ aside {
 .features {
 	padding-top:		3%;
 	width: 				90%;
-	text-align:			center;
+	margin: 			0 5% 0 5%;
 	font-weight: 		bold;
+	text-align: 		center;
 }
 
 .features i {
@@ -162,17 +163,68 @@ aside {
 	line-height: 		1.0em;
 }
 
-.social a {
-	display: 			inline-block;
-	width: 				20%;
-	height: 			150px;
-	color: 				white;
-	background-color: 	black;
-	margin: 			10px 5px;
-	text-align: 		center;
-	vertical-align: 	middle;
+.social {
+	margin: 			0% 10% 5% 10%;
+	letter-spacing: 	.1em;
 }
 
+.social p {
+	letter-spacing: 	.1em;
+}
 
+.social a {
+	display: 			inline-block;
+	width: 				180px;
+	height: 			120px;
+	color: 				white;
+	background-color: 	black;
+	text-align: 		center;
+	margin: 			2%;
+	padding-top: 		4%;
+}
 
+#contact {
+	height: 			267px;
+	width: 				100%;
+	background-color: 	black;
+}
+
+.addressbox {
+	color:				white;
+	width: 				25%;
+	background-color: 	red;
+	text-align: 		center;
+	padding: 			70px 10px;
+	margin: 			70px auto;
+}
+
+.innerbox {
+	width: 				100%
+	margin:				0 auto;
+}
+
+.one {
+	display: 			inline-block;
+	float:				left;
+	padding: 			8px;
+	border-top: 		4px solid black;
+	margin: 			2%;
+}
+
+.one li {
+	list-style-type: 	none;
+}
+
+.one hr {
+	width: 				110%;		
+}
+
+li:first-child {
+	border-top: 	    5px solid black;
+}
+
+ul {
+	padding-left: 		0;
+	margin-top: 		0;
+}
 
