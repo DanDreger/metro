@@ -1,9 +1,23 @@
 body {
+	margin: 			0;
+	padding: 			0;
+	font-family: 		'Teko', sans-serif;
 }
 
 article, aside, footer, header, section div {
 	display: 			block;
 }
+
+h3 {
+	font-size: 			30px;
+	margin:				0;
+}
+
+p { 
+	font-size: 			13px;
+	letter-spacing: 	.2em;	
+	font-family:		'Titillium Web', sans-serif;
+ }
 
 nav {
 	position: 			fixed;
@@ -12,6 +26,7 @@ nav {
 	background-color: 	black;
 	font-family:		'Titillium Web', sans-serif;
 }
+
 
 .logo {
 	display: 			inline-block;
@@ -37,114 +52,114 @@ nav {
 	margin-right: 		10%;
 }
 
-header {
+#header {
 	text-align: 		center;
 	margin: 			0 auto;	
-	color: 				white;	
-	width: 				70%;
-	line-height: 		500%;
-	font-family: 		'Teko', sans-serif; 
-	background-color: 	black;
-	
-}
-
-header h1 {
-	margin-top: 		175px;
-	font-size: 			5em;
-	letter-spacing: 	7px;
-}
-
-header button {
+	color: 				black;	
+	width: 				100%;
+	line-height: 		500%; 
+	margin-top: 		88px;	
 	background-color: 	black;
 	color: 				white;
+}
+
+#header h1 {
+	line-height: 		1;
+	font-size: 			100px;
+	width: 				70%;
+	margin: 			0 auto;
+	letter-spacing: 	.2em;
+}
+
+button {
 	border:				1px solid white;
 	padding: 			10px;
+	width: 				25%;
+	height: 			45px;
 }
 
-button i {
-	color: 				white;
-}
-
-.fa {
-	text-align: 		center;
-	padding-bottom: 	0;
-	margin-bottom: 		0;
-}
-
-section  {
-	background-color: 	white;
-	width: 				50%;
-	margin: 			0 auto;
-	text-align: 		center;
-	color: 				black;
-	font-size: 			35px;
-	font-family: 		'Teko', sans-serif; 
-	font-style: 		bold;
-	line-height: 		1;
-}
-
-section button {
-	background-color: 	red;
-	color: 				white;
-	border:				1px solid black;
-	padding: 			10px;
-}
-
-.explore button {
-	margin-bottom: 		50px;
-}
-
-aside {
-	display: 			table-cell;
+#header button {
 	background-color: 	black;
 	color: 				white;
-	padding: 			5%;
-	font-size: 			15px;
+}
 
+#explore button {
+	background-color: 	red;
+	color: 				white;
+	margin-bottom: 		5%;
+}
+
+#explore {
+	text-align: 		center;
+	margin: 			0 auto;	
+	color: 				black;	
+	width: 				65%; 	
+	font-size: 			25px;
+	line-height: 		1.5em;
+	letter-spacing: 	.3em;
 }
 
 .red {
 	display: 			table-cell;
 	background-color: 	red;
 	font-size: 			15px;
-	vertical-align: 	middle;
-	padding: 			5%;
+	padding: 			5% 20% 5% 5%;
 	text-align: 		left;
 	color: 				white;
+	width: 				50%;
 }
 
-.red h3 {
-	line-height: 		1;
+aside {
+	display: 			table-cell;
+	background-color: 	black;
+	color: 				white;
+	padding: 			0 20% 5% 5%;
+	font-size: 			15px;
 }
 
-.bottombar {
-	background-color:	black;
-	color:				white;
-	text-align: 		center;
+.topP	{
 	margin-top: 		0;
 }
 
-.bottombar hr {
-	color: 				white;
+.bottomP {
+	margin-top: 		200px;
 }
 
+.showmore {
+	background-color: 	black;
+	text-align: 		center;
+	font-weight: 		bold;
+	color: 				white;
+	padding: 			15px 0 15px 0;
+
+}
+.showmore hr {
+	width: 				10%;
+}
 
 .features div {
 	display: 			inline-block;
 	width: 				35%;
 	font-size: 			15px;
 	text-align: 		left;
+	padding: 			2%;
 }
 
 .features {
+	padding-top:		3%;
 	width: 				90%;
 	text-align:			center;
+	font-weight: 		bold;
 }
 
-.topP {
-	padding-top: 		0;
-	padding-bottom: 	100px;
+.features i {
+	color: 				red;
+}
 
+.features p {
+	letter-spacing: 	.1em;
+	font-size: 			15px;
+	line-height: 		1.0em;
 }
 
 .social a {
@@ -158,48 +173,6 @@ aside {
 	vertical-align: 	middle;
 }
 
-#contact {
-	height: 			500px;
-	width: 				100%;
-	background-color: 	black;
-}
 
-.addressbox {
-	color:				white;
-	width: 				25%;
-	background-color: 	red;
-	text-align: 		center;
-	padding: 			70px 10px;
 
-}
-
-.innerbox {
-	width: 				100%
-	margin:				0 auto;
-}
-
-footer { 
-	width: 				60%;
-	margin: 			0 auto;
-	display: 			block;
- }
-
-.side {
-	width: 				20%;
-	margin: 			3%;
-	float:				left;
-	font-size: 			10px;
-}
-
-.middle {
-	float: 				left;
-	margin: 			3%;
-	width: 				45%;
-	font-size: 			10px;
-}
-
-.middle ul {
-	float:				left;
-	width: 				50%;
-}
 
